@@ -1,4 +1,5 @@
 package DSA;
+
 import java.util.Scanner;
 
 /**
@@ -20,9 +21,11 @@ public class BubleSort {
         for (int i = 0; i < input; i++) {
             System.out.println(a[i] + " ");
         }
+        sc.close();
 
     }
-//function to sort array
+
+    // function to sort array
     static void bubleSort(int[] a) {
         int n = a.length;
         int i, j, temp;
@@ -38,5 +41,3 @@ public class BubleSort {
     }
 
 }
-
-
